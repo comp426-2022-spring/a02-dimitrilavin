@@ -45,7 +45,17 @@ function coinFlip() {
  */
 
 function coinFlips(flips) {
+  var flipArray = new Array(flips)
 
+  for(var i = 0; i<flips; i++){
+    var flip = Math.random()
+    if (flip<0.5){
+      flipArray[i] = "heads"
+    } else {
+      flipArray[i] = "tails"
+    }
+  }
+  return flipArray
 }
 
 /** Count multiple flips
