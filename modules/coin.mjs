@@ -97,7 +97,22 @@ function countFlips(array) {
  */
 
 function flipACoin(call) {
+  var result = ""
+  var flip = ""
+  var num = Math.random()
+  
+  if (num < 0.5){
+    flip = "heads"
+  } else {
+    flip = "tails"
+  }
 
+  if (flip == call){
+    result = "win"
+  } else {
+    result = "lose"
+  }
+  return {"call": call, "flip": flip, "result": result}
 }
 
 
