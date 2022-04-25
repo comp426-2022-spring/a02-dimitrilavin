@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-dimitrilavin/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-dimitrilavin#readme"
+  "homepage": "https://github.com/comp426-2022-spring/a02-dimitrilavin#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
 }
